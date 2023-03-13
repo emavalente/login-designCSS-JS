@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="#">Home</a></li>
+          <li class="navbar__item"><a href="#">About</a></li>
+          <li class="navbar__item"><a href="#">Service</a></li>
+          <li class="navbar__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <form action="#" class="searchbar">
+        <input class="searchbar__input" type="text" name="" id="" placeholder="Search..." />
+        <button class="searchbar__button" type="submit"><i class="bx bx-search-alt"></i></button>
+      </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container">
+      <div class="content">
+        <h2 class="content__logo"><i class="bx bxl-firebase"></i>Ema_DevOlder</h2>
+        <div class="content__text-sci">
+          <h2>Welcome!<br /><span>To My New Website</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, quae.</p>
+          <div class="content__social-icons">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="logreg-box">
+        <!-- Signin form -->
+        <div class="form-box login">
+          <form action="#">
+            <h2>Sign In</h2>
+            <div class="form-box__input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="form-box__input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+            <div class="form-box__remember-forgot">
+              <label><input type="checkbox" name="remember" id="" /> Remember me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="form-box__btn">Sign in</button>
+            <div class="form-box__login-register">
+              <p>Don't have a account? <a href="#" class="register-link">Sign up</a></p>
+            </div>
+          </form>
+        </div>
+
+        <!-- Signup form -->
+        <div class="form-box register">
+          <form action="#">
+            <h2>Sign Up</h2>
+            <div class="form-box__input-box">
+              <span class="icon"><i class="bx bxs-user"></i></span>
+              <input type="text" required />
+              <label>User name</label>
+            </div>
+            <div class="form-box__input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="form-box__input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+            <div class="form-box__remember-forgot">
+              <label><input type="checkbox" name="remember" id="" /> I agree to the terms & conditions</label>
+            </div>
+
+            <button type="submit" class="form-box__btn">Sign in</button>
+            <div class="form-box__login-register">
+              <p>Already have a account? <a href="#" class="login-link">Sign in</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
